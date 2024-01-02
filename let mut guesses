@@ -1,0 +1,6 @@
+   let secret_word = words[0]; // Выбираем первое слово из списка
+    let mut guesses_left = 6;
+    let mut guessed_letters = HashSet::new();
+
+    println!("Welcome to Hangman!");
+    println!("Try to guess the word.");
